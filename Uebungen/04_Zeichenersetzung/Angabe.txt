@@ -1,0 +1,32 @@
+﻿Schreiben Sie ein Programm, das einen im Speicher abgelegten String 
+in lesbare Zeichen umwandelt.
+
+Hauptprogramm:
+	Im Hauptprogramm wird Ihr Unterprogramm "Go" aufgerufen.
+	Es wird der im Speicher abgelegte String auf dem Screen ausgegeben.
+	
+Unterprogramm GetValue:
+	Das Unterprogramm GetValue erwartet den Index des aktuellen Zeichens
+	und den Verrechnungswert als Übergabewerte. 
+	Es liefert einen validen ASCII-Wert (Buchstaben) zurück.
+	
+Ihre Aufgabe:
+	Schreiben Sie das Unterprogramm Go.
+	Es gibt keine Übergabeparameter und keinen Rückgabewert.
+	Ihr Unterprogramm soll einen String der Länge 16 bearbeiten.
+	Im Speicher wurde ein String mit Platzhalter-Zeichen abgelegt:
+	string: "________________"
+	Desweiteren existieren zwei Octas mit Verrechnungswerten.
+	
+	Jedes Zeichen im String soll durch einen Buchstaben ersetzt werden.
+	Gehen Sie für jedes Zeichen (N = 16) folgendermaßen vor:
+		Laden Sie den aktuellen Wert des Zeichens aus dem String.
+		Rufen Sie das Unterprogramm GetValue mit dem Index des aktuellen
+		Zeichens und dem aktuellen Wert des Zeichens auf.
+		Speichern sie den Rückgabewert von GetValue an die Stelle des 
+		aktuellen Zeichens im String.
+		
+	Am Ende dürfen keine Platzhalter-Zeichen ("_") im String vorhanden sein.
+
+Bei Fragen: jwalter@hm.edu
+(Oder über Whatsapp)

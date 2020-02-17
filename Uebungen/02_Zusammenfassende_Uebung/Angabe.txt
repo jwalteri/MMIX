@@ -1,0 +1,18 @@
+Ihre Aufgaben:
+
+1. Main
+	- Übergeben Sie den Wert aus $255 an das Unterprogramm PrintTarget
+
+2. Ihr Unterprogramm Aim
+	- Ihr Unterprogramm bekommt die Werte x und y übergeben.
+	- Multiplizieren Sie diese Werte mit 7
+	- Kombinieren Sie x und y in ein Register z mit dem Format
+		#RRRRXXXXRRRRYYYY
+		R: dont care
+		X: x-Wert
+		Y: y-Wert
+	- Geben Sie das Register z als Rückgabewert zurück
+
+
+Das LP ist bestanden, wenn eine Zielscheibe mit Pfeil "in der Mitte" 
+ausgegeben wird und das Programm mit Halt endet.
